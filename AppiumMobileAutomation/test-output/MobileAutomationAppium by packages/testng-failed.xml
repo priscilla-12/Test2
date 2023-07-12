@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MobileAutomationAppium by packages]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="org.generalstore(failed)">
+    <classes>
+      <class name="org.generalstore.swipe">
+        <methods>
+          <include name="appiumConfiguration"/>
+          <include name="tearDown"/>
+          <include name="swipeAction"/>
+        </methods>
+      </class> <!-- org.generalstore.swipe -->
+      <class name="org.generalstore.dragAndDrop">
+        <methods>
+          <include name="appiumConfiguration"/>
+          <include name="tearDown"/>
+          <include name="dragAndDropMethod"/>
+        </methods>
+      </class> <!-- org.generalstore.dragAndDrop -->
+      <class name="org.generalstore.longPress">
+        <methods>
+          <include name="longPressGesture"/>
+          <include name="appiumConfiguration"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.generalstore.longPress -->
+      <class name="org.generalstore.appiumBasics">
+        <methods>
+          <include name="appiumConfiguration"/>
+          <include name="setWifiSettings"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.generalstore.appiumBasics -->
+    </classes>
+  </test> <!-- org.generalstore(failed) -->
+</suite> <!-- Failed suite [MobileAutomationAppium by packages] -->
